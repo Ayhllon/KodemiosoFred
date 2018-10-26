@@ -12,6 +12,7 @@
 }
 *{
 	box-sizing: border-box;
+  font-family: 'game-font';
 }
 html,
 body {
@@ -37,16 +38,16 @@ body {
 
 .form-signin {
     width: 100%;
-    max-width: 420px;
+    max-width: 550px;
     padding: 15px;
     margin: auto;
-    background: #fcfce6;
     border: 5px solid #b7b1b1;
 }
 h1{
-font-family: 'game-font';
-font-size: 24px;
 text-align: center;
+  background: -webkit-linear-gradient(#eee,#f6f1b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h1.title-login{
 	margin: 32px;
@@ -56,4 +57,9 @@ input#inputuser {
 }
 .container-button {
     margin: 16px;
+}
+label{
+    background: -webkit-linear-gradient(#eee,#f6f1b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
