@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'game-font';
+    src: url('../fonts/game-font/pressstart2p-regular-webfont.eot');
+    src: url('../fonts/game-font/pressstart2p-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/game-font/pressstart2p-regular-webfont.woff2') format('woff2'),
+         url('../fonts/game-font/pressstart2p-regular-webfont.woff') format('woff'),
+         url('../fonts/game-font/pressstart2p-regular-webfont.ttf') format('truetype'),
+         url('../fonts/game-font/pressstart2p-regular-webfont.svg#press_start_2pregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+	box-sizing: border-box;
+  font-family: 'game-font';
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 550px;
+    padding: 15px;
+    margin: auto;
+    border: 5px solid #b7b1b1;
+}
+h1{
+text-align: center;
+  background: -webkit-linear-gradient(#eee,#f6f1b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1.title-login{
+	margin: 32px;
+}
+input#inputuser {
+    margin-bottom: 8px;
+}
+.container-button {
+    margin: 16px;
+}
+label{
+    background: -webkit-linear-gradient(#eee,#f6f1b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
